@@ -1,4 +1,4 @@
-# ITCSS: Phát triển và bảo trì kiến trúc CSS
+# ITCSS: ~~Phát triển~~ _Mở rộng_(SCALABLE) và bảo trì kiến trúc CSS
 
 Làm thế nào để phát triển và bảo trì CSS của mình? Nó thực sự quan trọng với từng người làm Front-end. ITCSS là câu trả lời.
 
@@ -70,7 +70,7 @@ Bạn có thể theo dõi[Chisel](https://github.com/xfiveco/generator-chisel/),
 
 Dưới đây là một vài ý kiến dựa trên kinh nghiệm của tôi qua các dự án ITCSS:
 
-### Gợi ý cách đặt tên và vị trí của các styles
+### ~~Gợi ý cách~~ _Nghĩ ít đi về_ đặt tên và vị trí của các styles
 
 Tính chất bắt buộc của ITCSS đặc biệt khi kết hợp với [BEMIT naming convention](https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/) cho phép bạn tập trung nhiều hơn vào giải quyết các front-end challenges thay vì suy nghĩ về tên và vị trí của style. Đây là những gì Xfive.co main.scss cung cấp cho bạn:
     
@@ -151,7 +151,7 @@ Tính chất bắt buộc của ITCSS đặc biệt khi kết hợp với [BEMIT
 
 _Lưu ý: Chúng ta sử dụng [separate folders for each layer][https://github.com/xfiveco/generator-chisel/tree/master/generators/app/templates/styles/itcss] và tải các bảng định kiểu mới được thêm tự động vào [Chisel][https://github.com/xfiveco/generator-chisel/]._
 
-### Các Object có thể phát triển và sử dụng lại
+### ~~Các Object có thể phát triển và sử dụng lại~~ _Các object được sử dụng lại cho quá trình phát triển nhanh_
 
 Các object của ITCSS là đối tượng hoàn hảo để xây dựng thư viện chứa các component có thể tái sử dụng cho phép xây dụng front-end nhanh chóng.
 Các thành phần UI khi đó sẽ bao gồm các object dùng chung và các componet cụ thể trong project. Ví dụ, (innuitcss) như là một frameworm dựa trên ITCSS, nó bao gồm [a bunch of objects](https://github.com/inuitcss/inuitcss/tree/develop/objects) nhưng chỉ là [one sample component](https://github.com/inuitcss/inuitcss/tree/develop/components)
